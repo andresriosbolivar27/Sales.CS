@@ -39,7 +39,7 @@ namespace Sales.Backend.Migrations
                     b.HasIndex("Name")
                         .IsUnique();
 
-                    b.ToTable("MyProperty");
+                    b.ToTable("Countries");
                 });
 #pragma warning restore 612, 618
         }

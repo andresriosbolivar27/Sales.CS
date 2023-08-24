@@ -11,7 +11,7 @@ namespace Sales.Backend.Data
         {
         }
 
-        public DbSet<Country> MyProperty { get; set; }
+        public DbSet<Country> Countries { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
